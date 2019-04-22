@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Exam Suite" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="baseURL" value="http://www.espn.com/?src=com&amp;_adblock=true"/>
+    <test name="First test">
+        <classes>
+            <class name="com.globant.academy.tests.DeleteCustomerTest"/>
+        </classes>
+    </test>
+</suite>
